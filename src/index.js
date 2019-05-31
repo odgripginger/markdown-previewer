@@ -1,12 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import Editor from "./components/editor.js";
+import "./index.css";
+import Preview from "./components/preview.js";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      markdown: ""
+    };
+    this.handleChange = this.handleChange.bind(this);
+  }
+  handleChange(e) {
+    this.setState({ markdown: e.target.value });
+  }
+  render() {
+    return (
+      <div>
+        <Editor markdown={this.state.markdown} onChange={this.handleChange} />
+        <Preview id="previewBox" markdown={this.state.markdown} />
+      </div>
+    );
+  }
+}
+ReactDOM.render(<App />, document.getElementById("root"));
