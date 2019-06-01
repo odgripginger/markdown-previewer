@@ -35,10 +35,6 @@ a:visited {
 
   border-radius: 3.5px;
 }
-#previewBox {
-  line-height: 1.8rem;
-  white-space: wrap;
-}
 
 .toolbar {
   margin: 0 auto;
@@ -64,7 +60,18 @@ a:visited {
 
 #preview {
   background-color: white;
-
+  line-height: 1.5rem;
   color: #111;
   overflow: auto;
+}
+
+#preview blockquote {
+  background-color: aliceblue;
+  margin-left: 1vw;
+}
+
+#preview code,
+#preview pre {
+  background-color: gainsboro;
+  padding: auto 2rem;
 }

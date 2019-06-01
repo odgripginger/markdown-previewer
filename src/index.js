@@ -25,49 +25,38 @@ class App extends Component {
   }
 }
 
-const PLACEHOLDER = `# Welcome to my React Markdown Previewer!
+const PLACEHOLDER = `# Welcome to React Markdown Previewer!
 
-## This is a sub-heading...
-### And here's some other cool stuff:
+## This is a sub-heading
+### sub-sub-heading:
   
-Heres some code, \`<div></div>\`, between 2 backticks.
+Code between 2backticks, \`<div></div>\`, between 2 backticks.
 
 \`\`\`
 // this is multi-line code:
-
-function anotherExample(firstLine, lastLine) {
-  if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
-    return multiLineCode;
-  }
+function hello(){
+  console.log('hello world');
 }
 \`\`\`
   
-You can also make text **bold**... whoa!
-Or _italic_.
-Or... wait for it... **_both!_**
-And feel free to go crazy ~~crossing stuff out~~.
+Bold -> **bold**
+Italid -> _italic_
+Both -> **_Italic and Bold_**
+strikethrough -> ~~Striked off~~.
 
-There's also [links](https://www.freecodecamp.com), and
-> Block Quotes!
-
-And if you want to get really crazy, even tables:
-
-Wild Header | Crazy Header | Another Header?
------------- | ------------- | ------------- 
-Your content can | be here, and it | can be here....
-And here. | Okay. | I think we get it.
-
-- And of course there are lists.
-  - Some are bulleted.
-     - With different indentation levels.
-        - That look like this.
+A link -> [links](https://www.freecodecamp.com), and
+blockquotes ->  
+  >random quote!
 
 
-1. And there are numbererd lists too.
-1. Use just 1s if you want! 
-1. But the list goes on...
-- Even if you use dashes or asterisks.
-* And last but not least, let's not forget embedded images:
+
+1. Ordered
+1. List
+1. Tree
+- Unordered lists.
+* Ipsum Lorem
+
+Embedded images:
 
 ![React Logo w/ Text](https://goo.gl/Umyytc)
 `;
