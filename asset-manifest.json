@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mardown-previewer/static/css/main.02b2d65d.chunk.css",
+    "main.js": "/mardown-previewer/static/js/main.c836042a.chunk.js",
+    "main.js.map": "/mardown-previewer/static/js/main.c836042a.chunk.js.map",
+    "runtime~main.js": "/mardown-previewer/static/js/runtime~main.f0eda12a.js",
+    "runtime~main.js.map": "/mardown-previewer/static/js/runtime~main.f0eda12a.js.map",
+    "static/js/2.fadf6b30.chunk.js": "/mardown-previewer/static/js/2.fadf6b30.chunk.js",
+    "static/js/2.fadf6b30.chunk.js.map": "/mardown-previewer/static/js/2.fadf6b30.chunk.js.map",
+    "index.html": "/mardown-previewer/index.html",
+    "precache-manifest.c45ee54b41cfdd2da54c993ed63457ee.js": "/mardown-previewer/precache-manifest.c45ee54b41cfdd2da54c993ed63457ee.js",
+    "service-worker.js": "/mardown-previewer/service-worker.js",
+    "static/css/main.02b2d65d.chunk.css.map": "/mardown-previewer/static/css/main.02b2d65d.chunk.css.map"
+  }
+}
